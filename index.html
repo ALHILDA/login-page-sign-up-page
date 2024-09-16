@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>A login and sign up page</title>
+</head>
+<body>
+    <div class="login-container">
+  <form class="login-form">
+    <h2>We care about <br> <span>you</span> </h2>
+    <div class="input-data">
+      <label for="username">Email or Username</label>
+      <input type="text" id="username" required placeholder="Enter your email or username">
+    </div>
+    <div class="input-data">
+      <label for="password">Password </label>
+      <input type="password" id="password" required placeholder="Enter password" >
+      <p><a href="#" class="link">forgot password?</a></p>
+    </div>
+    <button class="submit-btn">Sign in</button>
+    <p class="text">New user?<a href="#" class="signup-link"> Sign up</a></p>
+  </form>
+</div>
+<div class="signup-container" style="display:none;">
+  <form class="signup-form">
+    <h2>Sign up</h2>
+    <div class="input-data">
+      <label for="name">Name</label>
+      <input type="text" id="name" required >
+    </div>
+    <div class="input-data">
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+    </div>
+    <div class="input-data">
+      <label for="username">Username</label>
+      <input type="text" id="username" required>
+    </div>
+    <div class="input-data">
+      <label for="password">Password</label>
+      <input type="password" id="password" required>
+    </div>
+    <button class="submit-btn">Sign up</button>
+    <p class="text">Already have an account? <a href="#" class="login-link">Login</a></p>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
